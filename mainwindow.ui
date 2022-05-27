@@ -6,12 +6,16 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1122</width>
-    <height>547</height>
+    <width>1310</width>
+    <height>628</height>
    </rect>
   </property>
   <property name="font">
    <font>
+    <family>Segoe UI Black</family>
+    <pointsize>20</pointsize>
+    <italic>true</italic>
+    <bold>true</bold>
     <underline>false</underline>
     <strikeout>false</strikeout>
    </font>
@@ -40,12 +44,13 @@ color: rgb(255, 255, 255);
   <widget class="QWidget" name="centralwidget">
    <property name="styleSheet">
     <string notr="true">background-color: rgb(79, 0, 59);
+background-color: rgb(85, 85, 255);
 background-color: rgb(88, 0, 66);</string>
    </property>
    <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>400</x>
+      <x>470</x>
       <y>20</y>
       <width>321</width>
       <height>41</height>
@@ -53,10 +58,10 @@ background-color: rgb(88, 0, 66);</string>
     </property>
     <property name="font">
      <font>
-      <family>Stencil</family>
-      <pointsize>20</pointsize>
+      <family>Trebuchet MS</family>
+      <pointsize>24</pointsize>
       <italic>false</italic>
-      <bold>false</bold>
+      <bold>true</bold>
       <underline>false</underline>
       <strikeout>false</strikeout>
      </font>
@@ -82,7 +87,7 @@ color: rgb(255, 255, 255);</string>
      <rect>
       <x>30</x>
       <y>160</y>
-      <width>811</width>
+      <width>841</width>
       <height>31</height>
      </rect>
     </property>
@@ -98,6 +103,7 @@ color: rgb(255, 255, 255);</string>
     </property>
     <property name="styleSheet">
      <string notr="true">background-color: rgb(255, 255, 255);
+color: rgb(0, 0, 0);
 border-color:rgb(0,0,0);</string>
     </property>
    </widget>
@@ -131,9 +137,9 @@ border-color:rgb(0,0,0);</string>
    <widget class="QPushButton" name="addline">
     <property name="geometry">
      <rect>
-      <x>880</x>
+      <x>1050</x>
       <y>160</y>
-      <width>221</width>
+      <width>231</width>
       <height>31</height>
      </rect>
     </property>
@@ -183,7 +189,7 @@ color: rgb(0, 0, 0);</string>
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>300</x>
+      <x>370</x>
       <y>10</y>
       <width>81</width>
       <height>71</height>
@@ -199,13 +205,13 @@ color: rgb(0, 0, 0);</string>
      <bool>true</bool>
     </property>
    </widget>
-   <widget class="QWidget" name="">
+   <widget class="QWidget" name="layoutWidget">
     <property name="geometry">
      <rect>
       <x>20</x>
       <y>241</y>
-      <width>1081</width>
-      <height>191</height>
+      <width>1271</width>
+      <height>301</height>
      </rect>
     </property>
     <layout class="QVBoxLayout" name="verticalLayout">
@@ -531,7 +537,7 @@ color: rgb(0, 0, 0);</string>
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1122</width>
+     <width>1310</width>
      <height>26</height>
     </rect>
    </property>

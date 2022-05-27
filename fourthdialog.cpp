@@ -32,7 +32,7 @@ void fourthDialog::on_pushButton_clicked()
     auto it = texteditor::m.rbegin();
     if(lineNo <= 0 || lineNo > it->first)
        {
-            QMessageBox::warning(this,"yyy","Invalid line no..");
+            QMessageBox::warning(this,"","Invalid line no..");
        }
     else{
         try{

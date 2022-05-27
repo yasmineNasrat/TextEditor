@@ -13,6 +13,10 @@
   <property name="windowTitle">
    <string>Dialog</string>
   </property>
+  <property name="styleSheet">
+   <string notr="true">color: rgb(255, 255, 255);
+background-color: rgb(170, 85, 127);</string>
+  </property>
   <widget class="QTextEdit" name="text">
    <property name="geometry">
     <rect>
@@ -29,6 +33,9 @@
      <italic>false</italic>
      <bold>true</bold>
     </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(255, 255, 255);</string>
    </property>
    <property name="readOnly">
     <bool>true</bool>
@@ -50,6 +57,9 @@
      <italic>false</italic>
      <bold>true</bold>
     </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(0, 0, 0);</string>
    </property>
    <property name="text">
     <string>Show the current file's content</string>

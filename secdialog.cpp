@@ -55,6 +55,7 @@ void secDialog::on_pushButton_insert_clicked()
             lineInserted.newLine = newline;
             texteditor::undoStack.push(lineInserted);
             texteditor::m[lineNo]=newline;
+
             ui->lineEdit_line->setText("");
             ui->lineEdit_lineNo->setText("");
             string message = " 1 line is inserted successfully..";
